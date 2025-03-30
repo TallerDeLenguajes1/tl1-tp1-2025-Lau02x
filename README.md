@@ -11,3 +11,9 @@ Es conveniente incluirlo para evitar que se rastreen archivos que no se necesita
 2. Se coloca el archivo en la raíz del proyecto. 
 3. Se edita el archivo y se le añaden las líneas que contienen los archivos o carpetas que se quieren ignorar. 
 4. Se confirma el archivo .gitignore. 
+
+# Punto 3: Respuestas
+## ¿Por qué el apartado 2 y 3 tiene resultados iguales? ¿A que se debe?
+Son iguales ya que la dirección de memoria almacenada por el puntero es la direccion de memoria de la variable. Esto se debe que al usar punteros, uno guarda las direcciones de memoria de las variables a las que se apuntan, **NO** se guarda el valor o información de esa variable.
+### ¿Que obtiene en el apartado 4?
+En este punto obtenemos la dirección de memoria del puntero mismo, pues los punteros son variables que ocupan memoria propia, no dependen de lo que pueda apuntar el puntero o las direcciones de memoria que contenga.
