@@ -3,9 +3,9 @@
 El archivo **.gitignore** es un archivo de texto que se utiliza para indicar a Git qué archivos y carpetas no se deben incluir en el control de versiones. 
 ## ¿Cuándo se debe hacer?
 Es conveniente incluirlo para evitar que se rastreen archivos que no se necesitan.
--Cuando se quiere ignorar un archivo que no se necesita controlar con Git.
--Cuando se quiere evitar que se rastreen archivos que tienen información sensible.
--Cuando se quiere evitar que se rastreen archivos que son autogenerados por alguna herramienta.
+- Cuando se quiere ignorar un archivo que no se necesita controlar con Git.
+- Cuando se quiere evitar que se rastreen archivos que tienen información sensible.
+- Cuando se quiere evitar que se rastreen archivos que son autogenerados por alguna herramienta.
 ### ¿Cómo configuraría el archivo .gitignore?
 1. Se crea un archivo de texto y se le pone el nombre .gitignore . 
 2. Se coloca el archivo en la raíz del proyecto. 
